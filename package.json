@@ -15,7 +15,7 @@
     "react-scripts": "4.0.1",
     "reactstrap": "^8.7.1"
   },
-  "homepage": "https://gkkrammes.github.io/React-Portfolio/",
+  "homepage": "https://gkkrammes.github.io/React-Portfolio",
   "scripts": {
     "predeploy":"npm run build",
     "deploy":"gh-pages -d build",
