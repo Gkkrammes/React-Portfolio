@@ -54,7 +54,6 @@ const ContactForm = () => {
       <h2>Thanks for visiting.</h2>
     <a href="https://github.com/Gkkrammes" rel="noopener noreferrer" target="_blank">
         <img src={github} className="icon-github" alt="Github Icon" /></a>
-       
         <a href="https://www.linkedin.com/in/gretchen-krammes-1a56321b1/" rel="noopener noreferrer" target="_blank">
          <img src={linkedin} className="icon-linkedin" alt="LinkedinIcon" /></a>
          </form>
