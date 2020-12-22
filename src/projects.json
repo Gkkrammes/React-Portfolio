@@ -1,7 +1,7 @@
 [
     {
         "id": "1",
-        "image": "Images/omnicalculator.png",
+        "image": "/Users/gretchenkrammes/Documents/GitHub/react-portfolio/public/Images/omnicalculator.png",
         "name":"Omnicalculator",
         "description": "A complex React application with multiple calculators to help you make basic calculations, track finances, and much more!",
         "github": "",
@@ -9,7 +9,7 @@
     },
     {
         "id": "2",
-        "image": "Images/partyplanner.png",
+        "image": "/Users/gretchenkrammes/Documents/GitHub/react-portfolio/public/Images/partyplanner.png",
         "name":"Party Planner",
         "description": "An ultimate party planner that centralizes every step of the party planning process in one application.",
         "github": "https://github.com/Gkkrammes/Project2",
@@ -17,7 +17,7 @@
     },
     {
         "id": "3",
-        "image": "Images/dailymeow.png",
+        "image": "/Users/gretchenkrammes/Documents/GitHub/react-portfolio/public/Images/dailymeow.png",
         "name":"The Daily Meow",
         "description": "A simple calendar application to bring a little cat inspired joy to your everyday scheduling.",
         "github": "https://github.com/Gkkrammes/The-Daily-Meow",
@@ -25,7 +25,7 @@
     },
     {
         "id": "4",
-        "image":"Images/notetaker.png",
+        "image":"/Users/gretchenkrammes/Documents/GitHub/react-portfolio/public/Images/notetaker.png",
         "name":"Note Taker",
         "description": "A basic note taking app that saves notes for a user.",
         "github": " https://github.com/Gkkrammes/Note-Taker",
@@ -33,7 +33,7 @@
     },
     {
         "id": "5",
-        "image": "Images/scheduler.png",
+        "image": "/Users/gretchenkrammes/Documents/GitHub/react-portfolio/public/Images/scheduler.png",
         "name":"Workday Scheduler",
         "description": "A daily calendar application that allows the user to schedule events on an hourly basis.",
         "github": "https://github.com/Gkkrammes/Workday-Scheduler",
@@ -41,7 +41,7 @@
     },
     {
         "id": "6",
-        "image": "Images/weather.png",
+        "image": "/Users/gretchenkrammes/Documents/GitHub/react-portfolio/public/Images/weather.png",
         "name":"Weather Dashboard",
         "description": "A dashboard that displays a daily and five-day forecast for a given city.",
         "github": "https://github.com/Gkkrammes/Weather-Dashboard",
@@ -49,7 +49,7 @@
     },
     {
         "id": "7",
-        "image": "Images/codequiz.png",
+        "image": "/Users/gretchenkrammes/Documents/GitHub/react-portfolio/public/Images/codequiz.png",
         "name":"Coding Quiz",
         "description": "A quiz application that allows the user to test their basic coding knowledge.",
         "github": "https://github.com/Gkkrammes/Code-Quiz",
@@ -57,7 +57,7 @@
     },
     {
         "id": "8",
-        "image": "Images/password.png",
+        "image": "/Users/gretchenkrammes/Documents/GitHub/react-portfolio/public/Images/password.png",
         "name":"Password Generator",
         "description": "A quick and easy way to generate a password within the selected parameters.",
         "github": "https://github.com/Gkkrammes/Password-Generator",
