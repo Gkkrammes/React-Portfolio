@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import Wrapper from '../Components/Wrapper';
 import Header from '../Components/Header';
+import github from "../Images/github.png";
+import linkedin from "../Images/linkedin.png";
 
 
 const ContactForm = () => {
@@ -30,6 +32,7 @@ const ContactForm = () => {
       <Header
           header="REACH OUT"
         />
+         
     <Wrapper>
     <form className='contactForm' onSubmit={handleSubmit}>
       <div>
@@ -49,7 +52,12 @@ const ContactForm = () => {
         <button id='contact-button' type="submit">{status}</button>
       </div>
       <h2>Thanks for visiting.</h2>
-    </form>
+    <a href="https://github.com/Gkkrammes" rel="noopener noreferrer" target="_blank">
+        <img src={github} className="icon-github" alt="Github Icon" /></a>
+       
+        <a href="https://www.linkedin.com/in/gretchen-krammes-1a56321b1/" rel="noopener noreferrer" target="_blank">
+         <img src={linkedin} className="icon-linkedin" alt="LinkedinIcon" /></a>
+         </form>
     </Wrapper>
 
     </div>
