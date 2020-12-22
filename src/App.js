@@ -1,25 +1,38 @@
-import logo from './logo.svg';
+import React, { Component } from "react";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+
 import './App.css';
 
-function App() {
+import Contact from './Pages/Contact';
+import Porfolio from './Pages/Portfolio';
+import Home from './Pages/Home';
+import Jumbo from './Components/Jumbotron'
+import Skills from './Components/Skills';
+import NavBar from './Components/NavBar';
+
+class App extends Component {
+render() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <Router>
+      <div className="App">
+
+        <NavBar /> 
+        <Jumbo />
+
+        <Switch>
+          <Route exact path="/" component={Home} />
+          <Route exact path="/contact" component={Contact}/>
+          <Route exact path="/portfolio" component={Porfolio}/>
+          <Route exact path="/skills" component={Skills}/>
+          <Route exact path="/jumbo" component={Jumbo}/>
+        </Switch>
+
+
+      </div>
+    </Router>
+    );
+  }
 }
 
 export default App;
+
