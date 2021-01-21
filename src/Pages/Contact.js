@@ -36,7 +36,7 @@ const ContactForm = () => {
     <Wrapper>
     <form className='contactForm' onSubmit={handleSubmit}>
       <div>
-        <h3>Please feel free to reach out with and requests, recommendations, or inqueries.</h3>
+        <h3>Please feel free to reach out with any requests, recommendations, or inqueries.</h3>
         <label htmlFor="name"></label>
         <input className='name-input' type="text" placeholder='name' id="name" required />
       </div>
