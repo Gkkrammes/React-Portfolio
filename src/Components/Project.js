@@ -1,5 +1,5 @@
 import React from "react";
-import {Card, Button, CardImg, CardTitle, CardText,CardBody} from 'reactstrap';
+import {Card, Button, CardTitle, CardText,CardBody} from 'reactstrap';
 import {Link} from 'react-router-dom';
 import Wrapper from './Wrapper';
 
@@ -11,7 +11,7 @@ function Projects(props) {
       <div className="img-container">
         <Card>
           <Button id="project-button" block>{props.name}</Button>
-          <CardImg className='projectImage' top width="100%" src='/Images.partyplanner.png' alt="website image"/>
+          
             <CardBody className="content">
 
               <CardTitle 

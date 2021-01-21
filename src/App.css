@@ -31,16 +31,13 @@ button {
 
 h1 {
   color: #1766a7;
-  font-size: 7vw;
+  font-size: 50px;
   text-align: center;
   padding: auto;
-  border-color: rgb(78, 138, 194);
-  border-style: solid;
-  border-width: 1px;
-  background-color: white;
-  height: 6vh;
-  
-  
+}
+
+.GretchName {
+  font-size: 7vw;
 }
 
 h2 {

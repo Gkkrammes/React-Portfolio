@@ -7,7 +7,7 @@ function Jumbo() {
         <div className='jumbotron-main'>
             <Jumbotron>
                 <Container>
-                    <h1>GRETCHEN KRAMMES</h1>
+                    <h1 className='GretchName'>GRETCHEN KRAMMES</h1>
                 </Container>
             </Jumbotron>
         </div>
