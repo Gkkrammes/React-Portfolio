@@ -23,7 +23,6 @@ return (
             <Project
                 key={project.id}
                 id={project.id}
-                picture={project.image}
                 name={project.name}
                 description={project.description}
                 github={project.github}
