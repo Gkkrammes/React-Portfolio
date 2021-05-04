@@ -32,7 +32,6 @@ class App extends Component {
           <Project
             key={projects[0].id}
             id={projects[0].id}
-            picture={projects[0].image}
             name={projects[0].name}
             description={projects[0].description}
             tech={projects[0].tech}
@@ -43,7 +42,6 @@ class App extends Component {
           <Project
             key={projects[1].id}
             id={projects[1].id}
-            picture={projects[1].image}
             name={projects[1].name}
             description={projects[1].description}
             tech={projects[1].tech}
